@@ -26,3 +26,8 @@ To run the code, you need an x86 Assembly environment capable of assembling and 
 
    ```shell
    git clone https://github.com/your-username/repository-name.git
+
+2.Assemble the code using an x86 assembler. For example, you can use NASM:
+   
+   ```shell
+   git clone https://github.com/your-username/repository-name.git
