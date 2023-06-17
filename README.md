@@ -28,6 +28,18 @@ To run the code, you need an x86 Assembly environment capable of assembling and 
    git clone https://github.com/your-username/repository-name.git
 
 2.Assemble the code using an x86 assembler. For example, you can use NASM:
+
+    ```shell
+   nasm -f elf64 filename.asm -o object.o
    
-   ```shell
-   git clone https://github.com/your-username/repository-name.git
+3.Link the object file to create an executable:
+
+    ```shell
+    ld object.o -o executable
+    
+4.Run the executable:
+
+    ```shell
+    ./executable
+    
+5.Follow the prompts to enter an integer and a string. The program will display the entered values.
